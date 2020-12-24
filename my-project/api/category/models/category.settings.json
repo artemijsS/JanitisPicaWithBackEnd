@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,8 +15,13 @@
       "type": "string"
     },
     "products": {
-      "via": "categories",
       "collection": "products",
+      "via": "categories",
+      "dominant": true
+    },
+    "type_of_products": {
+      "collection": "type-of-product",
+      "via": "categories",
       "dominant": true
     }
   }

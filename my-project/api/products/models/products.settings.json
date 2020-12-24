@@ -22,8 +22,8 @@
       "type": "richtext"
     },
     "categories": {
-      "collection": "category",
-      "via": "products"
+      "via": "products",
+      "collection": "category"
     },
     "img": {
       "type": "string",

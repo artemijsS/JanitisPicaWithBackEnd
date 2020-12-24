@@ -16,6 +16,10 @@
     "products": {
       "via": "type_of_product",
       "collection": "products"
+    },
+    "categories": {
+      "via": "type_of_products",
+      "collection": "category"
     }
   }
 }
